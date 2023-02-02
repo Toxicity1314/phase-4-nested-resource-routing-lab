@@ -21,6 +21,7 @@ group :development, :test do
 end
 
 group :development do
+  gem 'awesome_print', :require => 'ap'
   gem 'listen', '~> 3.3'
 end
 
